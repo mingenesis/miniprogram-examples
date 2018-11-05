@@ -7,6 +7,7 @@
     "url": "https://github.com/mingenesis/miniprogram-examples.git"
   },
   "author": "ming",
+  "private": true,
   "workspaces": [
     "packages/*"
   ]
