@@ -267,6 +267,13 @@
   dependencies:
     "@babel/helper-plugin-utils" "^7.0.0"
 
+"@babel/plugin-syntax-dynamic-import@^7.0.0":
+  version "7.2.0"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-syntax-dynamic-import/-/plugin-syntax-dynamic-import-7.2.0.tgz#69c159ffaf4998122161ad8ebc5e6d1f55df8612"
+  integrity sha512-mVxuJ0YroI/h/tbFTPGZR8cv6ai+STMKNBq0f8hFxsxWjl94qqhsb+wXbpNMDPU3cfR1TIsVFzU3nXyZMqyK4w==
+  dependencies:
+    "@babel/helper-plugin-utils" "^7.0.0"
+
 "@babel/plugin-syntax-json-strings@^7.2.0":
   version "7.2.0"
   resolved "https://registry.yarnpkg.com/@babel/plugin-syntax-json-strings/-/plugin-syntax-json-strings-7.2.0.tgz#72bd13f6ffe1d25938129d2a186b11fd62951470"
@@ -2259,6 +2266,37 @@ minipass@^2.2.1, minipass@^2.3.4:
   dependencies:
     safe-buffer "^5.1.2"
     yallist "^3.0.0"
+
+miniprogram-scripts@^0.3.0:
+  version "0.3.3"
+  resolved "https://registry.yarnpkg.com/miniprogram-scripts/-/miniprogram-scripts-0.3.3.tgz#3e7ce638218d69b9babcf8264a653019097e947c"
+  integrity sha512-ykgi4yhr/PgpszV62YULW3atFMLyvd3+hLAiNsld6OrsqMrLvidSGUlb6jtMcKbKo1XhGc6kH5QYuvrIjl7NxA==
+  dependencies:
+    "@babel/core" "^7.0.0"
+    "@babel/plugin-proposal-object-rest-spread" "^7.0.0"
+    "@babel/plugin-syntax-dynamic-import" "^7.0.0"
+    "@babel/plugin-transform-runtime" "^7.0.0"
+    "@babel/preset-env" "^7.0.0"
+    "@babel/runtime" "^7.0.0"
+    babel-code-frame "^6.26.0"
+    babel-core "7.0.0-bridge.0"
+    babel-eslint "^9.0.0"
+    chalk "^2.4.1"
+    chokidar "^2.0.2"
+    cross-spawn "^6.0.5"
+    eslint "^5.9.0"
+    eslint-config-react-app "3.0.5"
+    eslint-plugin-flowtype "^2.50.3"
+    eslint-plugin-import "^2.14.0"
+    eslint-plugin-jsx-a11y "^6.1.2"
+    eslint-plugin-react "^7.11.1"
+    rimraf "^2.6.2"
+    rollup "0.67.4"
+    rollup-plugin-babel "4.1.0-0"
+    rollup-plugin-commonjs "9.2.0"
+    rollup-plugin-node-resolve "3.4.0"
+    rollup-plugin-replace "2.1.0"
+    rollup-plugin-terser "3.0.0"
 
 minizlib@^1.1.1:
   version "1.1.1"
