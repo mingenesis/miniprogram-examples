@@ -2,9 +2,6 @@
   "name": "counter",
   "version": "0.0.1",
   "private": true,
-  "scripts": {
-    "start": "cd ../miniprogram-redux/ && MINIPROGRAM_ROOT=../counter/ APP_ID=wx6e6977b2fb4b27cf miniprogram-scripts start:miniprogram"
-  },
   "dependencies": {
     "miniprogram-redux": "^0.5.0"
   }
